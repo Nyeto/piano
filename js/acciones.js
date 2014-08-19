@@ -15,8 +15,8 @@ $('#principal').height($('#page').height());//calcular el alto de la pantalla de
 	
 	//reproducir las notas
 	
-	$('nota').bind('touchstart', function(){$(this).addClass('tocada'); audio.play($(this).attr('id'));});
-	$('nota').bind('touchend',function(){$(this).removeClass('tocada');});
+	$('.nota').bind('touchstart', function(){$(this).addClass('tocada'); audio.play($(this).attr('id'));});
+	$('.nota').bind('touchend',function(){$(this).removeClass('tocada');});
 	
 	
 	},false); //deviceready
